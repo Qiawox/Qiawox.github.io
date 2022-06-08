@@ -639,6 +639,16 @@ input[type="submit"]:hover
     padding-top: 20px;
   }
 }
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+  .cart1, .cart3
+  {
+    padding-top: 15%;
+  }
+  .cart2
+  {
+    padding-top: 19%!important;
+  }
+}
 @media screen and (max-width: 479px) {
   .header
   {
@@ -878,6 +888,48 @@ input[type="submit"]:hover
   .man
   {
     width: 100%;
+  }
+}
+@media screen and (max-width:320px) {
+  .t a
+  {
+    width: 100%;
+    padding: 10px 45px;
+  }
+  .cart
+  {
+    max-width: 90%;
+  }
+  .see
+  {
+    padding: 10px 10px;
+    font-size: 16px;
+  }
+  .row_r
+  {
+    max-width: 90%!important;
+    min-width: 90%;
+  }
+  .a
+  {
+    min-width: 90%;
+    max-width: 90%;
+  }
+  .a1
+  {
+    display: flex;
+  }
+  .a p
+  {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-align: center;
+  }
+  .b
+  {
+    min-width: 90%;
+    max-width: 90%;
   }
 }
 /* .m1
