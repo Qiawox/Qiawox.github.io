@@ -531,7 +531,7 @@ input[type="submit"]:hover
   display: inline-flex;
   flex-direction: column;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1024px) {
   .header
   {
     width: 100%;
