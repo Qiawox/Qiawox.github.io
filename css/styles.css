@@ -698,6 +698,8 @@ input[type="submit"]:hover
   .man
   {
     margin-bottom: 20px;
+    min-width: 100%;
+    max-width: 100%;
   }
   .man:last-child
   {
