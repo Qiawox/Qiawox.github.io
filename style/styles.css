@@ -1,3 +1,5 @@
+/* шрифты */
+
 @font-face {
     font-family: HandelGothic;
     src: url(../fonts/HandelGothic.ttf);
@@ -12,6 +14,9 @@
 body {
     background-color: #000;
 }
+
+
+/* хэдер */
 
 .portfolio {
     display: flex;
@@ -103,6 +108,9 @@ h3:nth-child(4) {
     font-style: normal;
 }
 
+
+/* слайдер */
+
 .slider {
     display: flex;
     margin: 18px 0px 0px 57px
@@ -152,6 +160,9 @@ h3:nth-child(4) {
     height: 54px;
 }
 
+
+/* контент */
+
 .container {
     background: #fff;
     margin: 90px 138px;
@@ -198,6 +209,9 @@ h3:nth-child(4) {
     line-height: 28px;
 }
 
+
+/* второй слайдер */
+
 .swiper2 {
     margin-top: 18px;
     margin-left: 60px;
@@ -229,12 +243,6 @@ h3:nth-child(4) {
     height: 100%;
 }
 
-.wrapper {
-    background-color: #000;
-    position: relative;
-    z-index: 10;
-}
-
 .buttons {
     display: flex;
     justify-content: space-between;
@@ -254,6 +262,9 @@ h3:nth-child(4) {
     border: 1px solid #000;
 }
 
+
+/* соц сети */
+
 .social {
     display: flex;
     flex-direction: row;
@@ -265,6 +276,9 @@ h3:nth-child(4) {
     margin-right: 15px;
     margin-left: 15px;
 }
+
+
+/* адаптация под другие разрешения экрана */
 
 @media (max-width: 601px) {
     .swiper-slide {
