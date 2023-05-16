@@ -1,3 +1,4 @@
+// первый слайдер
 const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
@@ -28,7 +29,7 @@ const swiper = new Swiper('.swiper', {
         }
     }
 });
-
+// второй слайдер
 const swiper2 = new Swiper('.swiper2', {
     direction: 'horizontal',
     loop: false,
