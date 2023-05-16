@@ -64,8 +64,6 @@ body {
 .desc {
     margin-left: 46px;
     max-width: 582px;
-    width: calc(100% - 46px);
-    height: 100%;
 }
 
 .desc h1 {
@@ -288,7 +286,8 @@ h3:nth-child(4) {
         flex-direction: column;
     }
     .desc {
-        margin-top: 30px;
+        width: 80%;
+        margin: 30px auto 0px auto;
     }
     .image {
         margin: 0 auto;
