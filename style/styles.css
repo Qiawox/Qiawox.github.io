@@ -64,6 +64,8 @@ body {
 .desc {
     margin-left: 46px;
     max-width: 582px;
+    width: calc(100% - 46px);
+    height: 100%;
 }
 
 .desc h1 {
